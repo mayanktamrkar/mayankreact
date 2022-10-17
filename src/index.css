@@ -3,7 +3,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-image: url(./img/back.jpg);
+    /* background-image: url(./img/back.jpg); */
 }
 
 code {
@@ -11,8 +11,8 @@ code {
 }
 
 .bu {
-    width: 30px;
-    height: 30px;
+    width: 150px;
+    height: 150px;
     margin: 2px;
     color: black;
     font-size: large;
@@ -25,13 +25,9 @@ code {
 
 .divcenter {
     text-align: center;
-    background-color: brown;
-    height: 400px;
-    width: 400px;
     border-radius: 10px;
-    border: 2px solid black;
-    margin-left: 400px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: 500px;
+    margin-top: 150px;
 }
 
 .di {
@@ -54,8 +50,9 @@ code {
 #may {
     height: 370px;
     width: 509px;
-    margin-left: 193px;
+    margin-right: 250px;
     border-radius: 15px;
+    float: right;
 }
 
 #row0 {
@@ -68,11 +65,11 @@ table {
 
 .center {
     text-align: center;
-    width: 300px;
-    height: 390px;
+    width: 500px;
+    height: auto;
     background-color: #e5f6ed;
-    margin-left: 500px;
-    margin-top: 100px;
+    margin-left: 400px;
+    margin-top: 10px;
     border-radius: 15px;
     border: 3px solid black;
 }
@@ -96,8 +93,87 @@ table {
     border-right: 0px;
     background-color: #e5f6ed;
     margin: auto;
+    margin-top: 0px;
 }
 
 .center>form {
-    padding-top: 80px;
+    padding-top: 20px;
+}
+
+.avatar {
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.c {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    background-color: white;
+    width: 600px;
+    height: 174px;
+    margin-left: 300px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.g {
+    margin: 4px 4px;
+}
+
+.p {
+    color: red;
+    font-size: small;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+}
+
+.grid-item {
+    background-color: rgba(234, 207, 207, 0.8);
+    border: 3px solid rgba(72, 23, 219, 0.8);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+}
+
+#one {
+    border-top: 0;
+    border-left: 0;
+}
+
+#two {
+    border-top: 0;
+}
+
+#three {
+    border-top: 0;
+    border-right: 0;
+}
+
+#four {
+    border-left: 0;
+}
+
+#six {
+    border-right: 0;
+}
+
+#seven {
+    border-left: 0;
+    border-bottom: 0;
+}
+
+#eight {
+    border-bottom: 0;
+}
+
+#nine {
+    border-right: 0;
+    border-bottom: 0;
 }

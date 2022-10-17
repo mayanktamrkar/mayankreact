@@ -1,6 +1,6 @@
 import React from 'react'
 import './index.css'
-import pic from './img/download.jpeg'
+import pic from './img/download.jpg'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 

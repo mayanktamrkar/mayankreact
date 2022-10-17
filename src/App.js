@@ -8,12 +8,17 @@ import Demo from './Demo';
 //import { Fetch } from './Fetch';
 import { Com } from './Com';
 import { Form } from './Form';
+import  Mat  from './mat'
+import  { Neww } from './Neww'
+
 
 import { createContext,useState } from 'react';
 import { Contest } from './Contest';
 
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
+import { Check } from './Check';
+import Chakra from './Chakra';
 
 
 
@@ -39,6 +44,7 @@ function App() {
         <Routes>
              <Route path="/about" element ={ <Comp1/>} />
               <Route path="/con" element ={ <Comp2/>} />
+             
               <Route path="/cal" element ={ <Cal/>} />
               <Route path="/todo" element ={ <To/>} />
               <Route path="/fetch" element ={ <Com/>} />
@@ -49,29 +55,11 @@ function App() {
        <F.Provider value={{may,data}}>
          <Contest   />
        </F.Provider>
-       <Stack spacing={2} direction="row">
-      <Button variant="text">Text</Button>
-      <Button variant="contained">Contained</Button>
-      <Button variant="outlined">Outlined</Button>
-    </Stack>
-
-
- 
-       
-    
-     
-
+       <Chakra/>
       
-
- 
-       
   
-   
-   
- 
     
-   
-     
+    
     </div>
   );
 }

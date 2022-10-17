@@ -13,6 +13,7 @@ export const Nav = () => {
     <p> <Link to="/about">component1</Link></p>
     <p><Link to="/con">component2</Link></p>
     <p><Link to="/todo">ToDo</Link></p>
+    <p><Link to="/mat">mat</Link></p>
 
    
     <p class="signup" id="signup1"><Link to="/cal">calculator</Link></p>

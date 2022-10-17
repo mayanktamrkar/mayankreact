@@ -15,6 +15,7 @@ const  Cal=()=> {
   const [i,seti]=useState(0)
 
   const change=(e)=>{
+    setvalue("")
     if(value!==undefined){
       setvalue(value+e)
       //setinput(value)
@@ -32,7 +33,7 @@ const  Cal=()=> {
   const equal=()=>{
     try {
       s=eval(value)
-       setvalue(s)
+      setvalue(s)
       
     } catch (error) {
       setvalue("")

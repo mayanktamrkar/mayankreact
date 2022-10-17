@@ -23,6 +23,7 @@ export default function Demo() {
         <Link class="nav-link" to="/todo">Todo</Link>
         <Link class="nav-link " to='/fetch'>Fetch</Link>
         <Link class="nav-link " to='/form'>Form</Link>
+        <Link class="nav-link " to='/mat'>mat</Link>
       </div>
       
     </div>

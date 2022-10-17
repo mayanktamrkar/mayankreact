@@ -4,7 +4,7 @@ import { useState } from 'react'
 export const Com = () => {
   
     const[val,setval]=useState(1)
-    let url=`https://jsonplaceholder.typicode.com/users?id=${val}`
+    let url=`https://jsonplaceholder.typicode.com/users`
     const [d,setd]=useState("")
     const fa=(e)=>{
         setval(e.target.value)
